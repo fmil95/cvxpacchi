@@ -1,0 +1,21 @@
+gametitle=Resident Evil: Code: Veronica X (SLUS-20184)
+
+[Set Motion Blur to Medium]
+author=Frozen Burnside
+description=Reduced motion blur effect
+patch=1,EE,002CB6A4,word,24020068
+
+[Set Motion Blur to Low]
+author=Frozen Burnside
+description=Minimal motion blur effect
+patch=1,EE,002CB6A4,word,24020070
+
+[Turn Motion Blur off]
+author=Frozen Burnside
+description=Remove motion blur effect
+patch=1,EE,002CB6A4,word,24020080
+
+[Turn Fog off]
+author=Frozen Burnside
+description=Disables fog (set it before a starting/loading a game) 
+patch=1,EE,002D5F60,word,24030000
