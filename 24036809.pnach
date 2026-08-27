@@ -15,6 +15,42 @@ author=Frozen Burnside
 description=Remove motion blur effect
 patch=1,EE,002CB6A4,word,24020080
 
+[Set Fog to High (experimental)]
+author=Frozen Burnside
+description=Reduces fog density a little
+patch=1,EE,002D61D0,word,080CFCC0
+patch=1,EE,0033F300,word,3C083FAA
+patch=1,EE,0033F304,word,35083D71
+patch=1,EE,0033F308,word,44881800
+patch=1,EE,0033F30C,word,46030002
+patch=1,EE,0033F310,word,E4200A88
+patch=1,EE,0033F314,word,080B5876
+patch=1,EE,0033F318,word,00000000
+
+[Set Fog to Medium (experimental)]
+author=Frozen Burnside
+description=Reduces fog density moderately
+patch=1,EE,002D61D0,word,080CFCC0
+patch=1,EE,0033F300,word,3C083FC0
+patch=1,EE,0033F304,word,35080000
+patch=1,EE,0033F308,word,44881800
+patch=1,EE,0033F30C,word,46030002
+patch=1,EE,0033F310,word,E4200A88
+patch=1,EE,0033F314,word,080B5876
+patch=1,EE,0033F318,word,00000000
+
+[Set Fog to Low (experimental)]
+author=Frozen Burnside
+description=Reduces fog density a lot
+patch=1,EE,002D61D0,word,080CFCC0
+patch=1,EE,0033F300,word,3C083FD4
+patch=1,EE,0033F304,word,35087AE1
+patch=1,EE,0033F308,word,44881800
+patch=1,EE,0033F30C,word,46030002
+patch=1,EE,0033F310,word,E4200A88
+patch=1,EE,0033F314,word,080B5876
+patch=1,EE,0033F318,word,00000000
+
 [Turn Fog off]
 author=Frozen Burnside
 description=Disables fog (set it before a starting/loading a game) 
