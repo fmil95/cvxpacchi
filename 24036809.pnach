@@ -55,3 +55,11 @@ patch=1,EE,0033F318,word,00000000
 author=Frozen Burnside
 description=Disables fog (set it before a starting/loading a game) 
 patch=1,EE,002D5F60,word,24030000
+
+[Fix Font graphics]
+author=Frozen Burnside
+description=Removes graphical artifacts from the game font
+patch=1,EE,002DF7B0,word,2442FFF8
+patch=1,EE,002DF7E4,word,2442FFF8
+patch=1,EE,002DF7FC,word,2442FFF8
+patch=1,EE,002DF830,word,2442FFF8
