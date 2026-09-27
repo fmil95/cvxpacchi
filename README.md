@@ -1,4 +1,4 @@
-A patch for use on PCSX2 to tweak RE: Code Veronica X's fog and motion blur effects. Currently supports only the [US release](https://github.com/fmil95/cvxpacchi/releases/tag/US) of the game.
+A patch for use on PCSX2 to tweak RE: Code Veronica X's fog and motion blur effects. Currently supports only the [US release](https://github.com/fmil95/cvxpacchi/releases/tag/1.1) of the game.
 
 Default fog:
 
